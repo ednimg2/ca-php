@@ -114,3 +114,22 @@ function array_filter_custom(array $array, ?callable $callback): array
 {
     return [];
 }
+
+/*
+    exercise 7
+    Parašykite funkciją, kuri apskaičiuotu, paduoto sveiko skaičiaus faktorialą.
+    Pridėkite teisingą return tipą.
+
+    Kaip apskaičiuojamas faktorialas:
+    n! = n * (n-1) * (n-2) * ... * 3 * 2 * 1
+    arba
+    n! = 1 * 2 * 3 * ... * n
+
+    2! = 1 * 2 = 2
+    3! = 1 * 2 * 3 = 6
+ */
+
+function factorial()
+{
+    return 0;
+}
