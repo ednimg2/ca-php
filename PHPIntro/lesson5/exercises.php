@@ -130,3 +130,102 @@ function exercise6(): int
 
     return 0;
 }
+
+function exercise7(): array
+{
+    $transactions = [
+        [
+            'total' => 200,
+            'status' => 'error',
+        ],
+        [
+            'total' => 150,
+            'status' => 'completed',
+        ],
+    ];
+
+    /*
+    Išfiltruokite masyvą, kurių 'status' reikšmė yra 'error' ir grąžinkite pamodifikuotą masyvą.
+    naudokite array_filter.
+    */
+
+    return [];
+}
+
+// Žr. kitą užduotį
+function getProducts(): array
+{
+    return [
+        'chair' => [
+            'type' => 'furniture',
+            'name' => 'Best chair',
+            'price' => 15,
+        ],
+        'lamp' => [
+            'type' => 'lighting',
+            'name' => 'Ultimate lamp',
+            'price' => 99,
+        ],
+        'sofa' => [
+            'type' => 'furniture',
+            'name' => 'Soft sofa',
+            'price' => 350
+        ],
+    ];
+}
+
+function exercise8(): array
+{
+    $products = getProducts();
+    $fridge = [
+        'type' => 'appliance',
+        'name' => 'Coolest fridge',
+        'price' => 200,
+    ];
+    /*
+    Į masyvą $products pridėkite naują narį ir grąžinkite naujajį masyvą. Nario 'key' - 'fridge'.
+    Nario reikšmė - $fridge
+    */
+
+    return [];
+}
+
+function exercise9(): float
+{
+    $products = getProducts();
+    /*
+    Raskite ir grąžinkite visų produktų kainų vidurkį.
+    */
+
+    return 0;
+}
+
+function exercise10(): array
+{
+    $transactions = [
+        [
+            'count' => 2,
+            'price' => 13,
+        ],
+        [
+            'count' => 15,
+            'price' => 14,
+        ],
+    ];
+    /*
+    Kiekvienai iš transakcijų, esančių kintamajame $transactions, suskaičiuokite galutinę sumą ir pridėkite į
+    transakciją su raktu 'total'. Grąžinkite $transactions iš funkcijos.
+    Tikėkitės, kad transakcijų skaičius gali išaugti. Jų gali būti ne 2, o 100. Dėl to naudokite ciklą.
+    Laukiamas rezultatas:
+    [
+        [
+            'count' => 2,
+            'price' => 13,
+            'total' => 26,
+        ],
+        ...
+    ];
+    */
+
+    return [];
+}
