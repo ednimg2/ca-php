@@ -17,12 +17,16 @@ function countDown()
 
 }
 
+countDown(10);
+
 /*
  * Parasykite funkcija, kuriai paduosim argumenta (int)
  * kuri isspausdins pirminius skaicius iki nurodytos reiksmes
  */
 
-function checkPrime()
+function printPrimeNumber()
 {
-    
+
 }
+
+printPrimeNumber(100);
