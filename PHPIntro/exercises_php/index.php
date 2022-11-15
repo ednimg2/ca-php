@@ -3,6 +3,7 @@
 /*
  * Parasykite funkcija countDown, kuriai galima paduoti argumenta (int)
  * Funkcija turi ivykdyti skaiciavima atgal nuo paduotos reiksmes
+ * Panaudokite rekursija
  * Pvz.:
  *
  * Number is 10
