@@ -1,0 +1,17 @@
+<?php
+
+/*
+ * Parasykite funkcija countDown, kuriai galima paduoti argumenta (int)
+ * Funkcija turi ivykdyti skaiciavima atgal nuo paduotos reiksmes
+ * Pvz.:
+ *
+ * Number is 10
+ * Number is 9
+ * Number is 8
+ * ...
+ * Number is 1
+ */
+function countDown()
+{
+
+}
