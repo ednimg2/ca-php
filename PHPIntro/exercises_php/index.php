@@ -16,3 +16,13 @@ function countDown()
 {
 
 }
+
+/*
+ * Parasykite funkcija, kuriai paduosim argumenta (int)
+ * kuri isspausdins pirminius skaicius iki nurodytos reiksmes
+ */
+
+function checkPrime()
+{
+    
+}
