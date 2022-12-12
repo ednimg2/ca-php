@@ -10,3 +10,5 @@
     - jei quantity maziau nei 5 tekstas: paskutines prekes
     - jei quantity nuo 5 iki 10 tekstas: pakankamas prekiu kiekis
     - jei quantity daugiau nei 10 tekstas: daugiau nei 10
+   
+4. Isveskite tik tais tuos orderius, kuriu prekiu quantity daugiau nei 5, panaudokite sub-query (sub-select'a)
